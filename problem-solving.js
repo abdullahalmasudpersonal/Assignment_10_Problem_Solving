@@ -25,6 +25,11 @@ const result = femaleFilterAndMapRemainingPeople(peoples);
 console.log("Problem-No-01", result);
 
 /* problem no 02 */
+
+/// 2.Task: Object Manipulation
+
+/// Create An Array Of Objects Representing Books With Properties Like Title, Author, And Year. Write A Function That Takes The Array And Returns A New Array With Only The Book Titles. Print The Result.
+
 const books = [
   { title: "Boker Vetor Nodi", author: "Humayun Ahmed", year: 1990 },
   { title: "Putul Nacher Itikotha", author: "Manik Bandopadhyay", year: 1936 },
@@ -41,6 +46,10 @@ const titles = getBookTitles(books);
 console.log("Problem-No-02", titles);
 
 /* problem no 03 */
+
+///  3.Task: Function Composition
+
+///  Write Three Functions: One To Square A Number, One To Double A Number, And One To Add 5 To A Number. Compose These Functions To Create A New Function That Squares A Number, Doubles The Result, And Then Adds 5.
 
 function square(number) {
   return number * number;
@@ -65,6 +74,10 @@ console.log("Problem-No-03", Ans);
 
 /* Problem no 04 */
 
+/// 4.Task: Sorting Objects
+
+/// Create An Array Of Objects Representing Cars With Properties Like Make, Model, And Year. Write A Function To Sort The Array Of Cars By The Year Of Manufacture In Ascending Order. Print The Sorted Array.
+
 const cars = [
   { make: "Toyota", model: "Corolla", year: 2015 },
   { make: "Honda", model: "Civic", year: 2018 },
@@ -82,6 +95,10 @@ const sortedCars = sortByYearAscending(cars);
 console.log("Problem-No-04", sortedCars);
 
 /* Problem no 05 */
+
+/// 5.Task: Find And Modify
+
+/// Write A Function That Searches An Array Of Objects For A Specific Person By Name. If Found, Modify Their Age Property. Print The Updated Array.
 
 const mans = [
   { name: "Abdullah", age: 28 },
